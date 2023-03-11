@@ -3,6 +3,7 @@
 title: 如何优雅的使用 EtherMine矿池
 banner: https://images.unsplash.com/photo-1563986768711-b3bde3dc821e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDI3fHxldGhlcmV1bXxlbnwwfHx8fDE2MzQ5NjIxNDc&ixlib=rb-1.2.1&q=80&w=1080
 cateogries: 
+date: 2021-10-23 04:09:25
 ---
 <!--kg-card-begin: markdown--><p>最近随着大量矿池出海,有很多朋友迁移到了 ethermine 矿池,随即遇到了很多问题,今天我来介绍下如何优雅的解决他们</p>
 <p>Q1:如何绑定钱包匿名挖矿<br>

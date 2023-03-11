@@ -3,6 +3,7 @@
 title: 远程服务器上部署Ipython notebook服务
 banner: /images/2015/12/DSC_0058_2500_c.JPG
 cateogries: 
+date: 2015-12-22 05:56:41
 ---
 <!--kg-card-begin: markdown--><p>IPython + Notebook 是一款基于WEB的可视化的编程IDE，至于他的详细介绍，您可以看我另一篇文章（然而并没有写Orz）</p>
 <p>那么我们可以在自己的本子上部署一个服务</p>

@@ -3,6 +3,7 @@
 title: 七彩虹主板刷bios支持12卡教程
 banner: https://images.unsplash.com/photo-1540829917886-91ab031b1764?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDN8fG1vdGhlcmJvYXJkfGVufDB8fHx8MTYxNTc3NDUzOQ&ixlib=rb-1.2.1&q=80&w=1080
 cateogries: 
+date: 2021-03-15 02:15:58
 ---
 <!--kg-card-begin: markdown--><p>最近七彩虹的12卡矿板 B250A-BTC 很火,因为价格便宜也比较好用(比那该死的映泰好用),但是板子初始设置最多3张显卡.需要自己更新bios设置才可以支持12路显卡</p>
 <p>所以以下教大家如何手动刷七彩虹主板的bios</p>

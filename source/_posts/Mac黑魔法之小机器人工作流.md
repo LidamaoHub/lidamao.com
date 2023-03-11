@@ -1,8 +1,9 @@
+
 ---
 title: Mac黑魔法之小机器人工作流
 banner: /images/2015/12/Istanbul--Turkey.jpg
 cateogries: 
-date: 1678540667
+date: 2015-12-22 05:55:31
 ---
 <!--kg-card-begin: markdown--><p>今天遇到了一个比较棘手的问题，朋友给我发了一个压缩文件。打开一看居然全是tif格式的文件，但是mac下面基本也没多少好的格式转换软件，只能用photoshop一张一张转换。</p>
 <p>面对如此坑爹的事实，网上搜索了一下，发现mac下面居然有个神奇的软件AutoMator，它藏身在应用程序–&gt;其他文件夹里，图标如下<br>

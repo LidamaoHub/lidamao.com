@@ -3,6 +3,7 @@
 title: python学习之PIL库学习---制作ASCII风格图片
 banner: /images/2015/12/New-York--U-S---1-.jpg
 cateogries: 
+date: 2015-12-22 05:54:26
 ---
 <!--kg-card-begin: markdown--><p>今天闲来无事在网上发现了一种奇特的图片---ascii图片,如图<br>
 <img src="/images/2015/12/20150126115322843.png" alt="" loading="lazy"><br>

@@ -3,6 +3,7 @@
 title: 移动网页页面小技巧包之meta
 banner: /images/2017/01/2016021673214_112.jpg
 cateogries: 
+date: 2017-01-02 15:03:26
 ---
 <!--kg-card-begin: markdown--><p>前段时间自己做了『点个赞社区』这个产品，所以接触到移动端的一些小技巧，现在总结如下</p>
 <p>一 meta标签篇</p>

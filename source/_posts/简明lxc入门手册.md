@@ -3,6 +3,7 @@
 title: 简明lxc入门手册
 banner: /images/2015/12/fc6c8ec317f9a609f0f2262a56b3ac37_b.jpg
 cateogries: 
+date: 2015-12-25 05:30:42
 ---
 <!--kg-card-begin: markdown--><p>最新常常尝试新的软件导致我的云服务器(Ubuntu)被装的乱七八糟不得不没事干重装,所以考虑尝试使用lxc提供的虚拟化服务来make things clean and clear</p>
 <h5 id="lxc">lxc的安装</h5>

@@ -3,6 +3,7 @@
 title: Ghost增加语法高亮
 banner: /images/2015/12/Untitled.jpg
 cateogries: 
+date: 2015-12-22 05:57:22
 ---
 <!--kg-card-begin: markdown--><p>刚刚迁移到Ghost博客上,感觉一切都是棒棒哒,优雅的首页简洁的后台操作(相比Wordpress那复杂的后台).但是正如世间的一切事物,Ghost也有其不够优雅的地方,比如她没办法实现代码高亮<br>
 <img src="/images/2015/12/-----2015-07-17---1-06-06.png" alt="" loading="lazy"><br>

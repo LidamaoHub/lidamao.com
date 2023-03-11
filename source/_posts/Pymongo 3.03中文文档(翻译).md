@@ -3,6 +3,7 @@
 title: Pymongo 3.03中文文档(翻译)
 banner: /images/2015/12/Istanbul--Turkey--1-.jpg
 cateogries: 
+date: 2015-12-22 05:58:18
 ---
 <!--kg-card-begin: markdown--><h2 id="">前言</h2>
 <p>这个导览将要告诉你如何使用pymongo这个模块来操纵MongoDB数据库</p>

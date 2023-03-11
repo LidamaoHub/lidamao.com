@@ -3,6 +3,7 @@
 title: Flask 应用配置 Nginx 和 uwsgi
 banner: /images/2015/12/San-Francisco--U-S-.jpg
 cateogries: 
+date: 2015-12-22 05:53:59
 ---
 <!--kg-card-begin: markdown--><h2 id="">安装</h2>
 <pre><code class="language-bash">$ sudo apt-get install nginx

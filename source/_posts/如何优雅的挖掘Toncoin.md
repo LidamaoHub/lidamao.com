@@ -3,6 +3,7 @@
 title: 如何优雅的挖掘Toncoin
 banner: https://images.unsplash.com/photo-1637592156979-95f44c286423?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDh8fHRlbGVncmFtfGVufDB8fHx8MTY0MjkyMjE4NQ&ixlib=rb-1.2.1&q=80&w=1080
 cateogries: 
+date: 2022-01-23 07:16:42
 ---
 <!--kg-card-begin: markdown--><p>最近在youtube上看到台湾的加密货币社群在挖Toncoin,一个据说是有Telegram背景的POW币,所以研究了一下</p>
 <p>(以下内容主要是针对70ti/80ti等锁卡,因为toncoin单挖收益率和eth差不多,但是锁卡能解锁额外25%算力)</p>

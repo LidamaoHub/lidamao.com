@@ -3,6 +3,7 @@
 title: 前端黑魔法--纯css折角头像的实现
 banner: /images/2015/12/Lucerne--Switzerland--1-.jpg
 cateogries: 
+date: 2015-12-22 05:54:51
 ---
 <!--kg-card-begin: markdown--><p>今天公司的设计师提交了一个文艺的需求，设计一款文艺头像，如下图<br>
 <img src="/images/2015/12/20150417203159225.jpg" alt="" loading="lazy"><br>

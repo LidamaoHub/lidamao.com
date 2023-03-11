@@ -3,6 +3,7 @@
 title: 让你的服务器免输入密码(SSH-KEY连接)
 banner: /images/2015/12/tumblr_nv26r7rANX1u60tx6o1_1280.jpg
 cateogries: 
+date: 2015-12-22 05:57:56
 ---
 <!--kg-card-begin: markdown--><p>常常使用ssh登陆远程服务器的朋友们可能常常有这样的烦恼</p>
 <p><strong>我们需要在登陆的时候输入密码</strong></p>
