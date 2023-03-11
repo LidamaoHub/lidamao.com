@@ -1,0 +1,58 @@
+
+<main class="content outer " role="main">
+  <div class="inner posts">
+    <div class="post-feed">
+  <% page.posts.each(function(post,index) { %>
+
+  <article class="post-card <% if(index==0) { %>post-card-large<% } %><% if(index==1||index==2){ %> dynamic<% } %>">
+    <% if(post.banner) { %>
+      
+      <a href="<%- config.root %><%- post.path %>" class="post-card-image-link">
+        <img class="post-card-image" src="<%= post.banner %>">
+      </a>
+    <% } %>
+    <div class="preview">
+<a href="<%- config.root %><%- post.path %>" class='post-card-content-link'>
+       <header class="post-card-header">
+        <!-- <div class="post-card-tags">
+          <% if (post.tags && post.tags.length){ %>
+    <% count = post.tags.length %>
+    | <% post.tags.forEach(function(tag, index) { %>
+    <a href='<%= config.root + tag.path %>'><%= tag.name %></a><% if (count !== index+1) { %>,<% } %>
+    <% }); %>
+    <% } %>
+        </div> -->
+      <h2 class="post-card-title"><%- post.title %></h2>
+    </header>
+    <section class="post-card-excerpt">
+      <p>
+
+      <% if (post.excerpt){ %>
+        <%- post.excerpt %>
+      <% } else { %>
+        <%- post.content.replace(/<(?:.|\n)*?>/gm, '').substr(0, 140) %>...
+      <% } %>
+      </p>
+
+    </section>
+
+    <footer class="post-card-meta">
+      <time datetime="<%= date_xml(post.date) %>" itemprop="datePublished" class='post-card-meta-date'>
+          <%= date(post.date, 'MMM D YYYY H:m') %>
+      </time>
+    
+</footer>
+    </a>
+    </div>
+   
+  </article>
+  <% }); %>
+  
+  </div>
+  <nav class="pagination" role="pagination">
+    <% if (page.prev) { %><a class="newer-posts" href="<%- url_for(page.prev_link) %>">← Newer Posts</a><% } %>
+    <span class="page-number">Page <%- page.current %> of <%- page.total %></span>
+    <% if (page.next) { %><a class="older-posts" href="<%- url_for(page.next_link) %>">Older Posts →</a><% } %>
+  </nav>
+  </div>
+</main>

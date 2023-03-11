@@ -1,0 +1,37 @@
+<header class="site-head" <% if (page.banner) { %> style="background-image: url(<%- page.banner %>)" <% } else if(theme.cover) { %> style="background-image: url(<%- theme.cover %>)" <% } %>>
+
+    <% console.log(page.path) %>
+
+    
+   <!--  <div class="vertical">
+        <div class="site-head-content inner">
+            <% if (theme.logo) { %> <a class="blog-logo" href="<%- config.root %>"><img src="<%- theme.logo %>" alt="Blog Logo"/></a> <% } %>
+            <h2 class="blog-description"><%- config.subtitle %></h2>
+            <div class="nav-menus">
+                <% site.categories.each(function(category){%>
+            <div class="menu"><%= category.name %></div>
+            <%})%>
+            </div>
+        </div>
+    </div> -->
+   
+    <div class="navbar <% if(page.path=='index.html') {%>home <%}else{%>post-page<%}%>">
+        <div class="site-head-content inner">
+            <% if (theme.logo) { %> 
+                <a class="blog-logo" href="<%- config.root %>"><img src="<%- theme.logo %>" alt="Blog Logo"/></a> 
+            <% }else{ %>
+                <h1 class="blog-title"><a style='color:white' href="<%- config.root %>"><%- config.title %></a></h1>
+            <% } %>
+            <div class="nav-menus">
+                <% site.categories.each(function(category){%>
+
+                    <div class="menu"><a href="<%=category.path%>"><%= category.name %></a></div>
+                <%})%>
+            </div>
+            
+            
+        </div>
+
+    </div>
+    
+</header>

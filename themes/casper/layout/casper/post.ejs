@@ -1,0 +1,21 @@
+
+<% permalink = config.url + config.root + post.path %>
+<main class="content site-main" role="main">
+  <article class="post article">
+    <header class="article-header gh-canvas">
+    <%- partial('post/meta') %>
+      
+      <h1 class="article-title"><%- post.title %></h1>
+    </header>
+    
+    <section class="gh-content gh-canvas">
+      <%- post.content %>
+    </section>
+    <footer class="gh-footer gh-canvas post-footer">
+      <%- partial('post/author') %>
+      <%- partial('post/share') %>
+    </footer>
+  </article>
+  <%- partial('post/navigation') %>
+  <!-- <%- partial('post/comments') %> -->
+</main>
